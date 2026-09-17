@@ -1,0 +1,49 @@
+    body{
+      background-color: hsl(30, 38%, 92%);
+    }
+    img{
+      height: 350px;
+      display: inline;
+      border-radius: 5px 0 0 5px;
+      vertical-align: middle;
+    }
+    h3{
+      color: hsl(228, 12%, 48%);
+    }
+    h1{
+    color:hsl(212, 21%, 14%) ;
+    }
+    p{
+      color: hsl(228, 12%, 48%);
+    }
+    #money{
+      color: hsl(158, 36%, 37%);
+    }
+    span{
+      color:hsl(228, 12%, 48%);;
+      font-size: 14px;
+      vertical-align: middle;
+      text-decoration: line-through;
+      margin-bottom: 5px;
+    }
+    div{
+      background-color: white;
+      width: 550px;
+      margin: auto;
+      vertical-align: top;
+      border-radius: 10px;
+    }
+    button{
+      background-color: hsl(158, 36%, 37%);
+      padding: 10px;
+      width: 200px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      margin-top: 0px;
+    }
+    .div1{
+      display: inline-block;
+      width: 300px;
+      margin-left: 12px;
+    }
