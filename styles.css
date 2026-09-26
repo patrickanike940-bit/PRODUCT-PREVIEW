@@ -1,5 +1,11 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
     body{
       background-color: hsl(30, 38%, 92%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
     img{
       height: 400px;
@@ -10,9 +16,11 @@
     }
     h3{
       color: hsl(228, 12%, 48%);
+      font-family: 'Montserrat', sans-serif;
     }
     h1{
     color:hsl(212, 21%, 14%) ;
+    font-family: 'Fraunces', serif;
     }
     p{
       color: hsl(228, 12%, 48%);
@@ -31,14 +39,15 @@
       background-color: white;
       width: 600px;
       margin: auto;
-      vertical-align: top;
+      vertical-align: middle;
       border-radius: 10px;
       display:flex
     }
     button{
       background-color: hsl(158, 36%, 37%);
       padding: 10px;
-      width: 200px;
+      width: 250px;
+      vertical-align: middle;
       border: none;
       border-radius: 5px;
       color: white;
@@ -48,5 +57,31 @@
       display: inline-block;
       width: 50%;
       padding: 24px;
+      padding-top: 8px;
       padding-right: 0px;
+      padding-bottom: 0px;
+    }
+
+    @media screen and ( max-width: 400px ) {
+      div {
+         display: block;
+        width: 99%;
+      }
+      .div1{
+        padding: 10px;
+        width: 80%;
+        height: 350px;
+      }
+
+      img{
+        width:100%;
+        border-radius: 5px 5px 0 0;
+        height: 350px;
+      }
+    }
+
+    @media screen and ( min-width: 600px ){
+      body{
+        background-color: rgb(48, 78, 60);
+      }
     }
