@@ -1,87 +1,88 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+    
     body{
       background-color: hsl(30, 38%, 92%);
       display: flex;
       justify-content: center;
-      align-items: center;
       height: 100vh;
     }
-    img{
-      height: 400px;
-      display: inline;
-      border-radius: 5px 0 0 5px;
-      vertical-align: middle;
-      width: 50%;
+
+    div{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background-color: hsl(0, 0%, 100%);
+      margin: auto;
+      width: 550px;
+      border-radius: 5px 5px 5px 5px;
     }
-    h3{
-      color: hsl(228, 12%, 48%);
-      font-family: 'Montserrat', sans-serif;
-    }
-    h1{
-    color:hsl(212, 21%, 14%) ;
-    font-family: 'Fraunces', serif;
-    }
-    p{
-      color: hsl(228, 12%, 48%);
-    }
+     h1{
+      font-family: 'Fraunces', serif;
+     }
+
     #money{
       color: hsl(158, 36%, 37%);
     }
+    
     span{
-      color:hsl(228, 12%, 48%);;
       font-size: 14px;
+      color: black;
       vertical-align: middle;
       text-decoration: line-through;
-      margin-bottom: 5px;
+      color: hsl(228, 12%, 48%);
     }
-    div{
-      background-color: white;
-      width: 600px;
-      margin: auto;
-      vertical-align: middle;
-      border-radius: 10px;
-      display:flex
-    }
-    button{
-      background-color: hsl(158, 36%, 37%);
-      padding: 10px;
-      width: 250px;
-      vertical-align: middle;
-      border: none;
-      border-radius: 5px;
-      color: white;
-      margin-top: 0px;
-    }
-    .div1{
-      display: inline-block;
-      width: 50%;
-      padding: 24px;
-      padding-top: 8px;
-      padding-right: 0px;
-      padding-bottom: 0px;
+     
+    h3{
+      font-family: 'Montserrat', sans-serif;
+      color: hsl(228, 12%, 48%);
     }
 
-    @media screen and ( max-width: 400px ) {
-      div {
-         display: block;
-        width: 99%;
+    p{
+      color: hsl(228, 12%, 48%);
+    }
+
+    img{
+      height: 435px;
+      border-radius: 5px 0 0 5px;
+      vertical-align: middle;
+      min-width: 300px;
+    }
+    .div1{
+      display: block;
+      width: 300px;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+
+    button{
+      margin-left: 8px;
+      width: 175px;
+      margin-bottom: 20px;
+      background-color: hsl(158, 36%, 37%);
+      padding: 5px;
+      border: none;
+      color: white;
+      border-radius: 5px;
+    }
+
+    @media screen and ( max-width:400px){
+
+      body{
+        background-color: greenyellow;
       }
-      .div1{
-        padding: 10px;
-        width: 80%;
-        height: 350px;
+
+      div{
+        display: block;
+        width: 99%;
       }
 
       img{
-        width:100%;
-        border-radius: 5px 5px 0 0;
-        height: 350px;
+        width: 100%;
       }
     }
 
-    @media screen and ( min-width: 600px ){
+    @media screen and (min-width:600px){
       body{
-        background-color: rgb(48, 78, 60);
+        background-color: rgb(48, 78, 60);;
       }
     }
